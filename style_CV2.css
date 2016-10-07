@@ -1,0 +1,64 @@
+h1
+{
+	text-align: center;
+}
+.page
+{
+	display: flex;
+	flex-direction: column;
+	font-family: Arial;
+	width: 600px;
+	margin: auto;
+	padding: 10px;
+	border: #8FAFCF solid 3px;
+	border-radius: 15px;
+}
+h3
+{
+	border-radius: 10px;
+	background-color: #AFCFEF;
+	padding-left: 8px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.nom
+{
+	margin-top: -4px;
+	margin-bottom: 6px;
+}
+header
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.identite
+{
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 10px;
+	background-color: #AFCFEF;
+	margin-right: 35px; ;
+}
+.colonne1
+{
+	width:250px;
+	padding-bottom: 10px;
+}
+.colonne2
+{
+	padding-bottom: 10px
+
+	width: 200px;
+}
+.photo
+{
+	border: #8FAFCF solid 3px;
+	border-radius: 10px;
+	margin-left: 35px;
+}
+table
+{
+	margin: auto;
+}
