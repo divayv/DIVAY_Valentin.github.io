@@ -1,36 +1,46 @@
+header
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
 h1
 {
 	text-align: center;
+	text-decoration: underline;
+	margin-bottom: -8px;
+}
+h3
+{
+	border-radius: 10px;
+	background-color: #AFCFEF;
+	padding-left: 50px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+a
+{
+	color:black;
+}
+table
+{
+	margin: auto;
 }
 .page
 {
 	display: flex;
 	flex-direction: column;
 	font-family: Arial;
-	width: 600px;
+	width: 700px;
 	margin: auto;
 	padding: 10px;
-	border: #8FAFCF solid 3px;
+	border: #8FAFCF solid 5px;
 	border-radius: 15px;
-}
-h3
-{
-	border-radius: 10px;
-	background-color: #AFCFEF;
-	padding-left: 8px;
-	padding-top: 3px;
-	padding-bottom: 3px;
 }
 .nom
 {
 	margin-top: -4px;
 	margin-bottom: 6px;
-}
-header
-{
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
 }
 .identite
 {
@@ -39,26 +49,35 @@ header
 	padding-right: 20px;
 	border-radius: 10px;
 	background-color: #AFCFEF;
-	margin-right: 35px; ;
+}
+.photo
+{
+	border: #8FAFCF solid 5px;
+	border-radius: 10px;
+	margin-left: 25%;
 }
 .colonne1
 {
-	width:250px;
+	width:18%;
 	padding-bottom: 10px;
 }
 .colonne2
 {
-	padding-bottom: 10px
-
-	width: 200px;
+	width:14%;
+	text-align: right;
+	padding-right: 5px;
 }
-.photo
+.colonne3
 {
-	border: #8FAFCF solid 3px;
-	border-radius: 10px;
-	margin-left: 35px;
+	padding-bottom: 10px;
+	width: 50%;
 }
-table
+.logo
 {
-	margin: auto;
+	float: right;
+}
+.exp
+{
+	padding-bottom: 10px;
+	text-align: justify;
 }
