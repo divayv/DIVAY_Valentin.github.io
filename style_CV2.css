@@ -3,6 +3,7 @@ header
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	color: #1F3F5F;
 }
 h1
 {
@@ -14,6 +15,7 @@ h3
 {
 	border-radius: 10px;
 	background-color: #AFCFEF;
+	color: #1F3F5F;
 	padding-left: 50px;
 	padding-top: 3px;
 	padding-bottom: 3px;
@@ -26,6 +28,10 @@ table
 {
 	margin: auto;
 }
+em
+{
+	font-style: italic;
+}
 .page
 {
 	display: flex;
@@ -36,6 +42,9 @@ table
 	padding: 10px;
 	border: #8FAFCF solid 5px;
 	border-radius: 15px;
+	background-image: url("bandeau.png");
+	background-repeat: no-repeat;
+	background-position: bottom right;
 }
 .nom
 {
@@ -56,6 +65,10 @@ table
 	border-radius: 10px;
 	margin-left: 25%;
 }
+.bandeau
+{
+	
+}
 .colonne1
 {
 	width:18%;
@@ -65,7 +78,7 @@ table
 {
 	width:14%;
 	text-align: right;
-	padding-right: 5px;
+	padding-right: 10px;
 }
 .colonne3
 {
