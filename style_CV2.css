@@ -2,8 +2,8 @@ header
 {
 	display: flex;
 	justify-content: space-around;
-	align-items: center;
-	color: #1F3F5F;
+	margin: auto;
+	width: 80%;
 }
 h1
 {
@@ -37,6 +37,10 @@ em
 {
 	font-style: italic;
 }
+tr
+{
+	vertical-align: top;
+}
 .page
 {
 	display: flex;
@@ -53,17 +57,20 @@ em
 }
 .identite
 {
-	padding: 10px;
+	padding-top: 20px;
+	padding-bottom: 10px;
 	padding-left: 20px;
 	padding-right: 20px;
 	border-radius: 10px;
 	background-color: #AFCFEF;
+	color: #1F3F5F;
+	vertical-align: middle;
 }
 .photo
 {
 	border: #8FAFCF solid 5px;
 	border-radius: 10px;
-	margin-left: 25%;
+	margin-left: 12%;
 }
 .bandeau
 {
@@ -93,4 +100,5 @@ em
 {
 	padding-bottom: 10px;
 	text-align: justify;
+	font-size: 1em;
 }
